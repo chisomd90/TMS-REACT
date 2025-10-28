@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+* {
+  font-family: "Inter", sans-serif;
+}
+
+
+@theme{
+  --header-color: hsla(0, 0%, 0%, 0.03);
+  --color2: hsla(0, 0%, 0%, 1);
+  --button-color: hsla(0, 0%, 100%, 1);
+  --border-color: hsla(0, 0%, 94%, 1);
+  --border-color2: hsla(0, 0%, 76%, 0.21);
+  --navborder-color: hsla(0, 0%, 12%, 1);
+  --button-text: hsla(0, 0%, 0%, 1);
+  --bg-color: hsla(0, 0%, 0%, 1);
+  --text-color: hsla(0, 0%, 94%, 1);
+  --p-color: hsla(0, 0%, 69%, 1);
+  --text-mission-color: hsla(0, 0%, 50%, 1);
+  --visionborder: hsla(0, 0%, 29%, 1);
+}
