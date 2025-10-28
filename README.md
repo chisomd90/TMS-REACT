@@ -42,5 +42,3 @@ It includes authentication, protected dashboard routes, and full ticket CRUD fun
 | **Deployment** | Vercel |
 
 ---
-
-## 📁 Folder Structure
