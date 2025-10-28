@@ -1,16 +1,46 @@
-# React + Vite
+# 🎫 Ticket Management System (TMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based **Ticket Management System** built with **React (Vite)** for managing and tracking tickets efficiently.  
+It includes authentication, protected dashboard routes, and full ticket CRUD functionality — all handled using **localStorage** for persistence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 🔐 Authentication
+- Register and login functionality (stored in localStorage)  
+- Protected routes to prevent unauthorized access  
+- Automatic redirect to login when not authenticated  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🧾 Ticket Management (CRUD)
+- Create, view, edit, and delete tickets  
+- Real-time updates with state management  
+- Data persistence via browser localStorage  
 
-## Expanding the ESLint configuration
+### 🧭 Dashboard
+- Clean and responsive dashboard layout  
+- Organized navigation with sidebar and routes  
+- Nested routes for better structure (`DashboardHome`, `Tickets`)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ⚡ User Experience
+- Toast notifications for success and error messages (via **React Hot Toast**)  
+- 404 Error page for undefined routes  
+- Fully responsive and modern UI  
+
+---
+
+## 🧱 Tech Stack
+
+| Category | Technologies Used |
+|-----------|-------------------|
+| **Frontend** | React (Vite), React Router DOM |
+| **State Management** | React Hooks (useState, useEffect) |
+| **Styling** | CSS |
+| **Notifications** | react-hot-toast |
+| **Routing** | react-router-dom v6 |
+| **Persistence** | localStorage |
+| **Deployment** | Vercel |
+
+---
+
+## 📁 Folder Structure
