@@ -1,13 +1,14 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
-import NavBar from '../components/NavBar'
+import Navbar from '../components/Navbar'
+
 
 
 const Home = () => {
   return (
     <div className='bg-green-50'>
-      <NavBar/>
+      <Navbar/>
       <Hero/>
       <Footer/>
     </div>

@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link, Navigate } from "react-router-dom";
 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <header className="w-full py-4 bg- border-b border-(--visionborder) text-black sticky top-0">
       <nav className="container mx-auto px-6 h-[65px]">
@@ -29,6 +29,6 @@ const NavBar = () => {
       </nav>
     </header>
   );
-}
+};
 
-export default NavBar
+export default Navbar;
